@@ -35,8 +35,6 @@ body {
     color: #424242;
     padding-top: 63px;
     padding-right: 240px;
-
-
 }
 
 .header-left {
@@ -248,6 +246,8 @@ body {
     border: 1px solid #FF900E;
     border-radius: 8px;
     height: 241.83px;
+    
+    
 }
 
 .number {
@@ -260,6 +260,7 @@ body {
 .facts img {
     width: 45px;
     height: 45pxS;
+    padding-left: 100px;
 }
 
 .fact {
@@ -272,3 +273,49 @@ body {
 /*------------------------------------
             Sponspors
 -------------------------------------*/
+.sponspors{
+    margin-top: 120px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.sponspor-head{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    padding-bottom: 24px;
+}
+.sponspor-text{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding-bottom: 50px;
+}
+.sponspor-item{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-left: 240px;
+    padding-bottom: 120px;
+
+}
+/*-----------------------------------------
+            copy right line
+-----------------------------------------*/            
+
+
+.main-last{
+    width: 1520px;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin-left: 240px;
+    margin-bottom: 220px;
+    
+}
+.main-last-item{
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    text-align: center;
+    padding-top: 39px;
+    
+}
