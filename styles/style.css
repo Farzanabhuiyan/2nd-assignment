@@ -1,0 +1,274 @@
+/*-------------------------------------- 
+                 font 
+ ----------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Work+Sans:wght@500&display=swap');
+
+/*-----------------------------------------
+          common styles
+------------------------------------------*/
+
+body {
+    font-family: 'Work Sans';
+    font-style: normal;
+    width: 1920px;
+}
+
+/*-----------------------------------------
+           header
+-----------------------------------------*/
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(255, 144, 14, 0.1);
+
+}
+
+.header-right {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 477px;
+    height: 39px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+    padding-top: 63px;
+    padding-right: 240px;
+
+
+}
+
+.header-left {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-left: 230px;
+    padding-top: 50px;
+}
+
+/*-----------------------------------------
+               banner
+------------------------------------------*/
+.heading-container {
+    padding-top: 116px;
+    background: rgba(255, 144, 14, 0.1);
+    text-align: center;
+    width: 1920px;
+    height: 1322px;
+}
+
+.heading-item {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+
+.heading-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.heading-btn {
+    width: 180px;
+    height: 64px;
+    border: none;
+    background: #FF900E;
+    border-radius: 8px;
+}
+
+.btn1 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.banner {
+
+    padding-top: 50px;
+    padding-bottom: 45px;
+}
+
+/*-----------------------------------------
+             Quick list
+                 of
+              features   
+------------------------------------------*/
+.quick-list-container {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 45px;
+    align-items: center;
+}
+
+.quick-list-pic {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 24px;
+    row-gap: 24px;
+    margin-left: 300px;
+}
+
+.item {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.item1 {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+.item2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+
+/*---------------------------------
+           features
+----------------------------------*/
+.feature-container {
+    margin-top: 120px;
+    display: flex;
+    gap: 150px;
+    width: 1446px;
+    height: 1059px;
+
+}
+
+.feature {
+    width: 586px;
+    height: 171px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.features {
+    margin-left: 234px;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+    width: 586px;
+    height: 171px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+
+}
+
+.feature-head {
+    font-weight: 700;
+    color: #131313;
+    font-size: 45px;
+}
+
+.rectangle {
+    width: 5px;
+    height: 106px;
+    background: #FF900E;
+
+}
+
+.feature-design {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+
+.feature-item {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.feature-content {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.feature-banner {
+    width: 708px;
+    height: 982px;
+    margin-right: 240px;
+}
+
+.experience-btn {
+    margin-left: 880px;
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+}
+
+.ex-btn {
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    padding: 46px;
+    border: none;
+    border-radius: 8px;
+}
+
+.ex-btn1 {
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+}
+
+/*----------------------------------------
+               some fects
+------------------------------------------*/
+
+.some-facts {
+    padding-left: 240px;
+}
+
+.fact-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 290px;
+    margin-top: 100px;
+}
+
+.facts {
+    width: 241.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    height: 241.83px;
+}
+
+.number {
+    font-weight: 600;
+    text-align: center;
+    font-size: 45px;
+    color: #424242;
+}
+
+.facts img {
+    width: 45px;
+    height: 45pxS;
+}
+
+.fact {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+    text-align: center;
+}
+
+/*------------------------------------
+            Sponspors
+-------------------------------------*/
