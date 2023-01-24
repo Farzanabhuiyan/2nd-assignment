@@ -319,3 +319,97 @@ body {
     padding-top: 39px;
     
 }
+/*-------------------------------------------
+               Mobile device
+--------------------------------------------*/
+@media only screen and (max-width:688px)
+{
+   
+
+    .header, .heading-container, .header-right, .quick-list-pic{
+        width: 680px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20px;
+    }
+
+    .header-left, .heading-item, .heading-text,  .header-right{
+      width: 200px;
+      margin-left: 100px;
+      height: 16px;
+    }
+  
+    .banner{
+        display: none;
+    }
+   .heading-item{
+    text-align: start;
+    font-weight: 700;
+    font-size: 45px;
+   }
+   .heading-btn{
+    margin-left: 120px;
+
+   }
+  .quick-list-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .item{
+    margin-left: 100px;
+  }
+ 
+   .heading-btn{
+      margin-top: 150px;
+   }
+.feature-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+    
+}
+
+.feature-banner{
+    max-width: 608px;
+    max-height: 882px;
+    margin-top: 980px;
+}
+.experience-btn{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.features{
+    margin-left: 80px;
+}
+.some-facts{
+    margin-top: 1000px;
+    max-width: 680px;
+}
+ .fact-container, .sponspor-item{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 60px;
+}
+
+.sponspors{
+    max-width: 608px;
+    max-height: 600px;
+}
+ .main-last-item, .main-last{
+    width: 600px;
+    margin-left: 10px;
+ }
+ 
+
+ }
+
+
+
+
+
+
+
+
+  
+  
+
